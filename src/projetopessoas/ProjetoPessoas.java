@@ -19,14 +19,25 @@ public class ProjetoPessoas {
         Pessoa p1 = new Pessoa();
         Aluno p2 = new Aluno();
         Professor p3 = new Professor();
+        Visitante p4 = new Visitante();
+        Bolsista p5 = new Bolsista();
         
-        p1.setNome("Rafael");
-        p2.setNome("Agatha");
-        p3.setNome("Vero");
+        p1.setNome("Pessoa");
+        p2.setNome("Aluno");
+        p3.setNome("Professor");
+        p4.setNome("Visitante");
+        p5.setNome("Bolsista");
+        
+        p1.ver();
+        p2.ver();
         p3.ver();
+        p4.ver();
+        p5.ver();
         
         p2.cancelarMatr();
         p3.receberAum(100);
+        p5.renovar();
+        p5.cancelarMatr();
 
         
     }

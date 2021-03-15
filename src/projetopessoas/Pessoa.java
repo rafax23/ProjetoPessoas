@@ -9,7 +9,7 @@ package projetopessoas;
  *
  * @author Rafael
  */
-public class Pessoa {
+public /*abstract*/ class Pessoa {
     
     //atributos
     private String nome;
@@ -22,7 +22,7 @@ public class Pessoa {
     
     public void ver(){
         imp("Pessoa Nome: " + getNome()
-                + "\nPessoa Idade: " +getIdade()
+                //+ "\nPessoa Idade: " +getIdade()
         );
         
     }
